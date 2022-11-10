@@ -20,3 +20,5 @@
 - The following screenshot shows an example of the game being played.
 
 ![alt text](milestone_5.png "Milestone 5 - Gameplay")
+
+- To improve the user experience, I could show an image of the computer's choice.

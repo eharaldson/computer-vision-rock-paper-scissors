@@ -11,3 +11,12 @@
 
 ## Milestone 4
 - A manual game of Rock, Paper, Scissors was created where the camera and ML model is not used. It uses the random module to get the computer's choice and uses the input function to get the choice from the player. The game consists of a play() function that is called to start the game. In this function the script calls get_computer_choice and get_user_choice to get the choices of the two players and calculates a winnner using the get_winner function. The latter function has the rules of the game hardcoded to print whether the computer or the player has won the game. This is all found in the manual_rps.py script.
+
+## Milestone 5
+- I have used keras to load the model accessed from teachable machine to a variable named model. The model has a predict method to calculate the prediction of what the player is showing to the camera. The result of `model.predict(data)` is a numpy array for the confidence score for each class. The max score is indexed using `index = np.argmax(prediction)` which can then be used to access a string value for the option chosing. 
+
+- I also converted the game to class (RPS) which has a play() method that can be called to start a game of rock, paper, and scissors. 
+
+- The following screenshot shows an example of the game being played.
+
+![alt text](milestone_5.png "Milestone 5 - Gameplay")

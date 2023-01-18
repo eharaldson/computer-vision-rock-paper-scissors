@@ -1,5 +1,11 @@
 # Computer Vision Rock Paper Scissors
 
+In this project I will train a convolutional neural network with images of me showing a rock, paper, scissors symbol as well as me showing nothing with my hands to teach a model to distinguish between these symbols. This will be done using teachable machine (https://teachablemachine.withgoogle.com/).
+
+I will use keras in a python script to feed the model an image from my laptop camera that shows me showing one of these signs and give a prediction of what the model thinks I am holding up.
+
+This will then be integrated into a game that I will program so that I will be able to play a game of best to 3 against the computer (where the computer will choose randomly one of the options).
+
 ## Milestone 1
 - Git is a VCS (Version Control System) which can utilised distributed version control along with GitHub to track changes to files, collaborate with others, display code publicly for others to read/use, and revert to old version of a codebase. These technologies are used widely in industry as they allow for safe collaboration on software projects with multiple people.
 
